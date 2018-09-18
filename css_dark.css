@@ -65,8 +65,7 @@ a.playbackSoundBadge__lightLink:focus {
     background-color: #121414 !important
 }
 .soundActions {
-    background-color: #121414 !important;
-    border-radius: 20px !important
+    background-color: #161719 !important
 }
 /*.soundTitle__title .sc-truncate{filter: invert(100%) !important;}*/
 .soundBadge .soundTitle__username {
@@ -228,7 +227,7 @@ input {
     background-color: #383838 !important;
 }
 .queue__itemWrapper {
-    background-color: #151619 !important
+    background-color: #121414 !important
 }
 .queueFallback__stationMode {
     border-top: 1px solid #232323 !important
@@ -493,4 +492,9 @@ background: url(https://i.imgur.com/1OYeSJn.png) center center no-repeat !import
 .sc-button-small.sc-button-icon:not(.sc-button-stretch-icon):before {
     left: 2px !important;
     right: 2px !important;
+}
+
+.queue__panel{
+    border-bottom: 1px solid #383838 !important;
+    
 }
