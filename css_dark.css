@@ -62,14 +62,11 @@ a.playbackSoundBadge__lightLink:focus {
     color: #f50 !important
 }
 .sc-button-small.sc-button-icon:not(.sc-button-stretch-icon){
-    background-color: #161719 !important
-}
-
-.sc-button-small.sc-button-responsive:not(.sc-button-stretch-icon){
     background-color: #121414 !important
 }
 .soundActions {
-    background-color: #161719 !important
+    background-color: #121414 !important;
+    border-radius: 20px !important
 }
 /*.soundTitle__title .sc-truncate{filter: invert(100%) !important;}*/
 .soundBadge .soundTitle__username {
@@ -491,4 +488,9 @@ background: url(https://i.imgur.com/1OYeSJn.png) center center no-repeat !import
 
 .editTrackItem__additional{
     background: #161719 !important
+}
+
+.sc-button-small.sc-button-icon:not(.sc-button-stretch-icon):before {
+    left: 2px !important;
+    right: 2px !important;
 }
